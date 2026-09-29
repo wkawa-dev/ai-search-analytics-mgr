@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "asam": {
+      "command": "uv",
+      "args": ["run", "--quiet", "asam", "mcp"]
+    }
+  }
+}

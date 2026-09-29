@@ -1,0 +1,14 @@
+{
+  "name": "ai-search-analytics-mgr",
+  "description": "asam: agent-first Search Console + GA4 + SEO tooling for Claude Code",
+  "owner": { "name": "wkawa-dev" },
+  "plugins": [
+    {
+      "name": "asam",
+      "source": ".",
+      "description": "Manage and analyze Google Search Console + GA4 from Claude Code, with built-in SEO / AI-search web tools.",
+      "category": "marketing",
+      "tags": ["seo", "analytics", "search-console", "ga4"]
+    }
+  ]
+}

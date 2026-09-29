@@ -1,0 +1,16 @@
+{
+  "name": "asam",
+  "displayName": "AI Search Analytics Manager",
+  "version": "0.1.0",
+  "description": "Agent-first Google Search Console + GA4 management and SEO/AI-search analysis: full reports, quick wins, site onboarding (programmatic verification + GA4 setup), crawling, robots/sitemaps, PageSpeed, IndexNow.",
+  "author": { "name": "wkawa-dev" },
+  "repository": "https://github.com/wkawa-dev/ai-search-analytics-mgr",
+  "license": "MIT",
+  "keywords": ["seo", "search-console", "google-analytics", "ga4", "indexnow", "pagespeed", "ai-search"],
+  "mcpServers": {
+    "asam": {
+      "command": "uvx",
+      "args": ["--quiet", "--from", "${CLAUDE_PLUGIN_ROOT}", "asam", "mcp"]
+    }
+  }
+}
